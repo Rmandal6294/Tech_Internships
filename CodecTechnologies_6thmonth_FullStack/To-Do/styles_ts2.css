@@ -3,6 +3,10 @@ html, body{
     padding: 0px;
     margin: 0px;
     font-family: 'DM Mono', monospace;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header{
@@ -213,9 +217,12 @@ h1{
 }
 
 footer{
+    background-color: rgb(125, 216, 212);
+}
+.footer{
     margin-top: 40px;
     background-color: rgb(125, 216, 212);
-    padding: 20px;
+    padding: 30px;
     color: aliceblue;
     text-align: center;
 }
